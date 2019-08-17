@@ -45,7 +45,7 @@ class ShowTime(kp.Plugin):
         )
 
         self.time_title_format = options.get(
-            "time_title_format", "time", "%H:%m")
+            "time_title_format", "time", "%H:%M")
         self.time_description_format = options.get(
             "time_description_format", "time", "%x")
 
